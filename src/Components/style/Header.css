@@ -1,0 +1,10 @@
+header {
+    grid-area: header;
+    background-color: aqua;
+  }
+  
+  header img {
+    height: 100%;
+    padding: 7px 7px 7px 7px;
+    align-items: center;
+  }

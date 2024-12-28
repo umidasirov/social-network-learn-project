@@ -1,0 +1,16 @@
+
+nav {
+    grid-area: nav;
+    background-color: blue;
+    padding: 10px;
+    font-size: 20px;
+}
+nav a{
+    transition: 0.3s;
+    color: #ffff;
+    text-decoration: none;
+}
+nav a.active {
+    color: crimson;
+    padding-left: 10px;
+}  

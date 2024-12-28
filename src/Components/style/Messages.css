@@ -1,0 +1,25 @@
+.dialogs{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    padding: 20px;
+}
+.dialogs-messages {
+    padding-left: 40px;
+    position: relative;
+    width: 100%; /* Примерная ширина, может быть любая */
+    height: 300px; /* Установите высоту для контейнера */
+  }
+  
+  .dialogs-messages::before {
+    content: '';
+    position: absolute; /* Позиционируем псевдоэлемент относительно родительского блока */
+    left: 0; /* Располагаем линию по левому краю */
+    width: 1px;
+    height: 100%;
+    background-color: white
+  }
+  .user-list.active{
+    color: black;
+  }
+  
