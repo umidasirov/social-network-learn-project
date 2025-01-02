@@ -19,7 +19,12 @@
     height: 100%;
     background-color: white
   }
+  .user-list{
+    transition: 0.5s;
+  }
   .user-list.active{
-    color: black;
+    padding-left: 10px;
+    transition: 0.5s;
+    color: gold;
   }
   

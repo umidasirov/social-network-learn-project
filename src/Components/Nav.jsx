@@ -10,7 +10,7 @@ export default function Nav() {
         </NavLink>
       </div>
       <div>
-        <NavLink to="/messages" className={({ isActive }) => (isActive ? "active" : "")}>
+        <NavLink to="/message" className={({ isActive }) => (isActive ? "active" : "")}>
           Messages
         </NavLink>
       </div>

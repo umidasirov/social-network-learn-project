@@ -14,9 +14,7 @@ function App() {
         <div className="section">
           <Routes>
             <Route path="/profile" element={<Content />} />
-            <Route path="/messages/1" element="good"/>
-            <Route path="/messages/2" element="bad"/>
-            <Route path="/messages" element={<Messages />} />
+            <Route path="/message/*" element={<Messages />} />
           </Routes>
         </div>
       </div>
